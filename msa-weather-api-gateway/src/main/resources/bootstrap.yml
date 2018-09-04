@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: msa-weather-config-server #根据eureka注册中心里的服务名称找到配置中心服务器
+        #eureka-client-dev.yml
+      name: msa-weather-api-gateway
+      profile: dev
+      label: master
+      uri: http://localhost:8086/
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

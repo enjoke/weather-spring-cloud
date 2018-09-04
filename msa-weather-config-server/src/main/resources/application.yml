@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8086
+spring:
+  application:
+    #配置应用名称，后期可根据应用名称调用应用的应服务
+    name: msa-weather-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/enjoke/spring-cloud-config.git
+        #如果gig仓库需要账户密码认证，启用下面这两项就ok
+          username: enjoke
+          password: test_1234

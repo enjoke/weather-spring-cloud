@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msa-weather-api-gateway" />
+        <module name="msa-weather-city-server" />
+        <module name="msa-weather-collection-server" />
+        <module name="msa-weather-config-server" />
+        <module name="msa-weather-data-server" />
+        <module name="msa-weather-eureka-server" />
+        <module name="msa-weather-reporter-server" />
+        <module name="weatherspringcloud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

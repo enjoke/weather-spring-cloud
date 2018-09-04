@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-city-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-collection-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-data-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../weatherReporter/msa-weather-reporter-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-data-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-collection-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-reporter-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-city-server/pom.xml" />
+        <option value="$PROJECT_DIR$/msa-weather-api-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

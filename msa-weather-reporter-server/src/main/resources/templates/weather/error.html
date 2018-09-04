@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>出错了</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class="alert alert-dismissable alert-danger">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                <h4>
+                    出错了！
+                </h4> <strong th:text="${reportModel.msg}"></strong><a href="#" class="alert-link">alert link</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
